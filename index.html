@@ -40,9 +40,77 @@
                 </li>
             </ul>
         </address>
+        <button class="burger-btn" type="button"><svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-icon-burger"></use>
+        </svg></button>
+        </div>
+        <div class="mobile-menu">
+            <div class="container mobile-menu-container">
+                <button class="mobile-menu-close" type="button"><svg class="close-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-black"></use>
+                </svg></button>
+                <nav class="mobile-menu-nav">
+                    <ul class="mobile-menu-nav-list">
+                        <li>
+                            <a class="mobile-menu-navigation-list-link current" href="./index.html" target="_blank">Studio</a>
+                        </li>
+                        <li>
+                            <a class="mobile-menu-navigation-list-link" href="" target="_blank">Portfolio</a>
+                        </li>
+                        <li>
+                            <a class="mobile-menu-navigation-list-link" href="" target="_blank">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <address class="mobile-menu-contacts">
+                    <ul class="mobile-menu-contacts-list">
+                        <li>
+                            <a class="mobile-menu-address-list-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        </li>
+                        <li>
+                        <a class="mobile-menu-address-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                    </ul>
+                </address>
+                <div>
+                    <ul class="mobile-menu-ul">
+                        <li class="mobile-menu-li">
+                            <a href="#" class="mobile-menu-media-link">
+                                <svg class="mobile-menu-icons" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-instagram">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-li">
+                            <a href="#" class="mobile-menu-media-link">
+                                <svg class="mobile-menu-icons" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-li">
+                            <a href="#" class="mobile-menu-media-link">
+                                <svg class="mobile-menu-icons" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-facebook">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-li">
+                            <a href="#" class="mobile-menu-media-link">
+                                <svg class="mobile-menu-icons" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-linkedin">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
-    <main>
+    <main class="hidden">
         <!--Section 1-->
         <section class="hero-image">
         <div class="container">
@@ -348,7 +416,7 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer hidden">
         <div class="footer-wrap container">
         <div class="logo-p-wrap">
         <a class="logo footer-logo" href="./index.html">WEB
@@ -406,7 +474,7 @@
         </div>
         </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop is-open hidden">
         <div class="modal">
             <button class="modal-close-button" type="button"><svg class="close-icon" width="8" height="8"><use href="./images/icons.svg#icon-close-black"></use></svg></button>
             <p class="modal-text">Leave your contacts and we will call you back</p>
